@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock %}
+
+
+{% block more_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block conetnt %}
+<h1 class="title">Home</h1>
+<h1>{{ title }}</h1>
+{% endblock %}
